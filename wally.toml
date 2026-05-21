@@ -1,0 +1,11 @@
+[package]
+name = "alysson/dobigtest"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Trove = "sleitnick/trove@^1"
+
+[install]
+target = "src/ReplicatedStorage/Packages"
